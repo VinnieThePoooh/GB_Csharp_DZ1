@@ -9,12 +9,15 @@ if (number < 0)
 {
    number = -1 * number ;
 }
-int i = 2 ;
-if (i < number);
+
+int i = 2;
+for (i = 2; i < number; i = i + 2)
 {
     System.Console.Write(i);
-    System.Console.WriteLine(" ");
+    System.Console.Write(", ");
 }
-    i = i + 2;
-
-System.Console.WriteLine(i);
+if (i == number)
+{
+    System.Console.Write(i);
+    System.Console.WriteLine(".");
+}
