@@ -11,7 +11,7 @@ if (number < 0)
 }
 
 int i = 2;
-for (i = 2; i < number; i = i + 2)
+for (i = 2; i < number - 1 ; i = i + 2)
 {
     System.Console.Write(i);
     System.Console.Write(", ");
@@ -19,5 +19,11 @@ for (i = 2; i < number; i = i + 2)
 if (i == number)
 {
     System.Console.Write(i);
-    System.Console.WriteLine(".Конец");
+    System.Console.WriteLine(". Конец");
+}
+
+if (i == number - 1)
+{
+    System.Console.Write(i);
+    System.Console.WriteLine(". Конец");
 }
