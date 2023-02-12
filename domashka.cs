@@ -19,5 +19,5 @@ for (i = 2; i < number; i = i + 2)
 if (i == number)
 {
     System.Console.Write(i);
-    System.Console.WriteLine(".");
+    System.Console.WriteLine(".Конец");
 }
